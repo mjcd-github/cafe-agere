@@ -1,0 +1,83 @@
+/* section location */
+.location {
+    display: inline-flex;
+    justify-content: center;
+    width: 100%;
+    height: 300px;
+  }
+  
+  .location__container {
+    display: flex;
+    width: 95%;
+    align-content: center;
+  }
+  
+  /* texto  */
+  .location__invitacion {
+    display: flex;
+    justify-content: center;
+    width: 33%;
+    height: auto;
+  }
+  /* box interno "ven a conocernos" */
+  .location-invitacion__box {
+    width: 70%;
+    margin: 30px;
+  }
+  .location__title--size {
+    font-weight: 300;
+    font-size: 26px;
+  }
+  .location__paragraph-font {
+    font-family: $font-roboto;
+    font-size: 18px;
+    margin-top: 30px;
+  }
+  
+  /* mapa cuadro azul */
+  .location__map {
+    display: flex;
+    position: relative;
+    width: 45%;
+    justify-content: right;
+  }
+  .location-map__boxblue {
+    display: flex;
+    background: #3c91e6;
+    width: 95%;
+    height: 240px;
+    z-index: 0;
+  }
+  
+  .location-map__image--size {
+    position: absolute;
+    width: 80%;
+    height: 260px;
+    left: 0px;
+    bottom: 0px;
+    z-index: 1;
+  }
+  
+  /* Sección café machine */
+  
+  .location__machine {
+    width: 28%;
+  }
+  .location-machine__cafe {
+    position: absolute;
+  }
+  
+  .location-machine__cafe--size {
+    position: relative;
+    width: 100px;
+    height: 140px;
+    object-fit: cover;
+    z-index: 1;
+    left: -50px;
+  }
+  
+  .location-machine__image--size {
+    width: 100%;
+    height: 300px;
+  }
+  

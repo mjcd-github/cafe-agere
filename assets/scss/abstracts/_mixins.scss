@@ -1,0 +1,9 @@
+@mixin align($display, $justify-content){
+    display: $display;
+    justify-content: $justify-content;
+}
+
+@mixin size-info($width, $margin){
+    width: $width;
+    margin: $margin;
+}

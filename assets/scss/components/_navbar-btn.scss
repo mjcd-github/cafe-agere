@@ -1,0 +1,38 @@
+/* Botones Navbar */
+.navbar__btn {
+    display: flex;
+    width: 55%;
+    justify-content: flex-end;
+  }
+  
+  .btn {
+    width: 100%;
+    height: auto;
+    border: 1px solid #cccccc;
+    padding: 7px 10px;
+    text-align: center;
+  }
+  
+  .navbar-btn__link {
+    margin: 0px 20px;
+    text-decoration: none;
+  }
+  
+  .navbar__btn--green {
+    color: #ffffff;
+    font-weight: 500;
+    background: #4ca866;
+  }
+  .navbar__btn--green:hover {
+    color: #454545;
+    background: #9dcfab;
+  }
+  
+  .navbar__btn--light {
+    color: #808080;
+  }
+  
+  .navbar__btn--light:hover {
+    color: #000000;
+    border-color: #000000;
+  }
